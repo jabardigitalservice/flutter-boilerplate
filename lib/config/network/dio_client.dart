@@ -1,6 +1,5 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_boilerplate/config/environment_config.dart';
-import 'package:flutter_boilerplate/config/network/network_exception.dart';
 import 'package:flutter_boilerplate/utils/dio_error_util.dart';
 
 class DioClient {

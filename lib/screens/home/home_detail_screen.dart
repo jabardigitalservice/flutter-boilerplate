@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_boilerplate/constants/assets.dart';
-import 'package:flutter_boilerplate/cubits/post/post_cubit.dart';
-import 'package:flutter_boilerplate/repositories/post/post_repository.dart';
 
 const String _loremIpsumParagraph =
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod '

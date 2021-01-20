@@ -2,7 +2,6 @@ import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_boilerplate/config/environment_config.dart';
 import 'package:flutter_boilerplate/screens/home/home_detail_screen.dart';
-import 'package:flutter_boilerplate/screens/user/user_list_screen.dart';
 
 const double _fabDimension = 56.0;
 
@@ -31,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
         transitionType: _transitionType,
         transitionDuration: const Duration(milliseconds: 700),
         openBuilder: (BuildContext context, VoidCallback _) {
-          return UserListScreen();
+          return HomeDetailScreen();
         },
         closedElevation: 6.0,
         closedShape: const RoundedRectangleBorder(
