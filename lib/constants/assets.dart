@@ -1,14 +1,22 @@
 class Assets {
   Assets._();
 
+  /// ICONS:--------------------------------------------------------------------
   // splash screen assets
-  static const String appLogo = "assets/icons/ic_appicon.png";
+  static const String iconApp = "assets/icons/ic_appicon.png";
 
-  // login screen assets
-  static const String carBackground = "assets/images/img_login.jpg";
 
+  /// IMAGES:-------------------------------------------------------------------
   // placeholders
-  static const String placeholderImage = "assets/images/placeholder_image.png";
-  static const String placeholderAvatar = "assets/images/placeholder_avatar.png";
+  static const String imagePlaceholder = "assets/images/placeholder_image.png";
+  static const String imagePlaceholderAvatar = "assets/images/placeholder_avatar.png";
+
+  // not found
+  static const String imageNotFound = "assets/images/not_found.png";
+
+
+  /// FLARES:-------------------------------------------------------------------
+  // empty data
+  static const String flareEmptyData = "assets/flares/empty_data.flr";
 
 }
