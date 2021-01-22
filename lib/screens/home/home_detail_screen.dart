@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_boilerplate/config/environment_config.dart';
 import 'package:flutter_boilerplate/constants/assets.dart';
 
 const String _loremIpsumParagraph =
@@ -49,7 +50,7 @@ class HomeDetailScreen extends StatelessWidget {
             height: 250,
             child: Padding(
               padding: const EdgeInsets.all(70.0),
-              child: Image.asset(Assets.placeholderImage),
+              child: Image.asset(Assets.imagePlaceholder),
             ),
           ),
           Padding(
@@ -75,7 +76,9 @@ class HomeDetailScreen extends StatelessWidget {
                       .of(context)
                       .textTheme
                       .bodyText1,
-                )
+                ),
+                const SizedBox(height: 10),
+                Text('BASE_URL = ${EnvironmentConfig.BASE_URL}'),
               ],
             ),
           ),
